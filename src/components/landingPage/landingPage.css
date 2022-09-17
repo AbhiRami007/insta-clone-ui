@@ -1,0 +1,38 @@
+.landing-page{
+    display: flex;
+    margin:10px 0px 10px 20rem
+}
+
+.landing-page-image{
+    width: fit-content;
+    height: fit-content;
+}
+.landing-page-image img{
+    width:30vw;
+    height: 95vh
+}
+.landing-page-text{
+    margin: 40vh 0px 0px 5vw;
+}
+
+.landing-page-text .text{
+    color: green;
+    font-size: 50px;
+    align-items: center;
+}
+.button{
+    text-align: center;
+}
+.landing-page-text .button button{
+    border: 3px solid green;
+    background-color: white;
+    border-radius: 5px;
+    width: 5vw;
+    height:5vh;
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    color: green;
+}
+
+
