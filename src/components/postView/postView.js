@@ -6,9 +6,12 @@ import PostHead from "../PostHead/postHead";
 
 export default function PostView() {
   let navigate = useNavigate();
+  // const baseUrl = "https://insta-clone-server-application.herokuapp.com";
+  const baseUrl = "http://localhost:8080";
+
   const [data, setData] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:8080/posts")
+    fetch(`${baseUrl}/posts`)
       .then((response) => response.json())
       .then((value) => {
         console.log(value);
@@ -42,10 +45,7 @@ export default function PostView() {
                     </div>
                   </div>
                   <div className="content-image">
-                    <img
-                      src={window.location.origin + item.PostImage}
-                      alt="image"
-                    />
+                    <img src={baseUrl + item.PostImage} alt="image" />
                   </div>
                   <div className="content-bottom">
                     <div className="bottom-top">

@@ -1,0 +1,26 @@
+.post-content{
+    margin-bottom: 20px;
+}
+.post-content-form{
+    margin: 50px 10px 0px 300px;
+    display: flex;
+    flex-direction: column;
+    width:50%;
+    border:1px solid;
+    padding: 10px;
+}
+.author{
+    margin-right: 132px;
+    width: 40%;
+}
+.location{
+    width: 40%;
+}
+input{
+    margin-bottom: 20px
+
+}
+button{
+    width: fit-content;
+    margin-left: 45%;
+}
