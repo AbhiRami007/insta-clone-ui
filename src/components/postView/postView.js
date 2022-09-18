@@ -6,8 +6,8 @@ import PostHead from "../PostHead/postHead";
 
 export default function PostView() {
   let navigate = useNavigate();
-  // const baseUrl = "https://insta-clone-server-application.herokuapp.com";
-  const baseUrl = "http://localhost:8080";
+  const baseUrl = "https://insta-clone-server-application.herokuapp.com";
+  // const baseUrl = "http://localhost:8080";
 
   const [data, setData] = useState([]);
   useEffect(() => {

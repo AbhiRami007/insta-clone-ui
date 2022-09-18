@@ -4,8 +4,8 @@ import PostHead from "../PostHead/postHead";
 import "./addPost.css";
 const AddPost = () => {
   let navigate = useNavigate();
-  // const baseUrl = "https://insta-clone-server-application.herokuapp.com";
-  const baseUrl = "http://localhost:8080";
+  const baseUrl = "https://insta-clone-server-application.herokuapp.com";
+  // const baseUrl = "http://localhost:8080";
   function savePost(e) {
     try {
       e.preventDefault();
